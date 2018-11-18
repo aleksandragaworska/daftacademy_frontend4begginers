@@ -1,0 +1,115 @@
+h1 {
+	display: none;
+}
+
+header {
+	position: fixed;
+	top: 4%;
+	left: 1%;
+}
+
+footer {
+	position: fixed;
+	bottom: 2%;
+	left: 1%;
+}
+
+.sidebar-menu {
+	list-style-type: none;
+}
+.sidebar-social {
+	list-style-type: none;
+}
+
+.page-content	{
+	min-height: 100vh;
+}
+
+.sectionA {
+	background-color: yellow;
+}
+
+.sectionB {
+	background-color: lightblue;
+}
+
+.section-header {
+	float: right;
+	right: 5%;
+	position: relative;
+}
+
+.section-band-photo img {
+	width: 600px;
+}
+
+.section-band-photo {
+	float: right;
+	top: 50px;
+	right: 50px;
+	position: relative;
+}
+
+/*.section-info {
+	float: right;
+	left: 700px;
+	position: relative;		
+}*/
+
+/*.info-text {
+	position: relative;
+	float: right;
+	right: 30px;
+}*/
+
+.band-member {
+	position: relative;
+	left: 20%;
+	display: inline-block;
+}
+
+.concert-item {
+	display: inline-block;
+	position: relative;
+	left: 20%;
+	top: 70px;
+	margin: 15px;
+}
+
+.concert-photo img {
+	width: 300px;
+}
+
+/*.concert-item > span {
+	float: left;
+}*/
+
+
+.concert-item > span > p {
+	margin: 0;
+}
+
+.concert-place {
+	float: left;
+}
+
+.button-ticket {
+	float: right;
+}
+
+
+.video-item {
+	float: right;
+	/*left: 50%;*/
+	top: 70px;
+	position: relative;
+}
+
+.photos-item img {
+	width: 300px;
+}
+
+.photos-item {
+	/*position: relative;*/
+	display: inline-block;
+}
