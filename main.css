@@ -43,7 +43,21 @@ header {
 	text-decoration: none;
 	color: #ef008e;
 	opacity: 0.8;
-	letter-spacing: 3px;
+	letter-spacing: 6.7px;
+	font-weight: bold;
+}
+
+.sidebar-menu a:hover {
+	font-family: Helvetica;
+	letter-spacing: 6.5px;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.sidebar-menu a:focus {
+	font-family: Helvetica;
+	letter-spacing: 6.5px;
+	font-weight: bold;
 }
 
 
@@ -105,6 +119,11 @@ header {
 
 .member-photo {
 	padding: 0px 10px;
+	opacity: 0.5;
+}
+
+.band-member:hover .member-photo {
+	opacity: 1;
 }
 
 .member-info {
@@ -112,6 +131,11 @@ header {
 	flex-direction: column;
 	align-items: center;
 	letter-spacing: 3px;
+	opacity: 0;
+}
+
+.band-member:hover .member-info {
+	opacity: 1;
 }
 
 .member-name {
@@ -263,6 +287,16 @@ button {
 	font-weight: 600;
 }
 
+button:hover {
+	background-color: rgba(204, 200, 255, 30%);
+	border: 1px solid rgba(204, 200, 255, 80%);
+}
+
+button:focus {
+	background-color: rgba(204, 200, 255, 2	0%);
+	border: 1px solid rgba(204, 200, 255, 80%);
+}
+
 @media screen and (max-width: 1024px) {
     .section-concerts {
         display: block;
@@ -311,6 +345,7 @@ button {
 	padding: 0px 0px 20px 20px;
 	/*flex-grow: 1;*/
 	/*justify-content: flex-end;*/
+	transition: all 0.3s ease-in-out;
 }
 
 .photos-item img {
@@ -318,6 +353,10 @@ button {
 	max-width: 100%;
 	/*margin: 1.5vh 0vw;*/
 	border-top: 3px solid #ec008c;
+}
+
+.photos-item:hover {
+	transform: scale(1.1);
 }
 
 @media screen and (max-width: 1024px) {
